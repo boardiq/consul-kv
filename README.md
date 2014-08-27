@@ -33,6 +33,10 @@ store['foo']        #=> { 'foo' => 'bar' }
 store.delete('foo') #=> true
 ```
 
+## TODO
+1. Switchable Datacenters
+2. Atomic operations
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/consul-kv/fork )
