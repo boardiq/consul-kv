@@ -1,5 +1,5 @@
 module Consul
   module KV
-    VERSION = "0.0.1"
+    VERSION = "0.0.2"
   end
 end
