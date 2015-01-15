@@ -21,8 +21,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require 'consul-kv'
+
 Consul::KV.configure do |x|
-  x.consul_host = 'http://127.0.0.1'
+  x.consul_host = '127.0.0.1'
   x.consul_port = '8500'
   x.consul_prefix = 'v1/kv'
 end
